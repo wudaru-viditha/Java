@@ -2,7 +2,7 @@ package GuesserGame;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
+// import javax.lang.model.util.ElementScanner14;
 
 public class LaunchGame{
     public static void main(String[] args){
@@ -21,9 +21,9 @@ class Guesser
 
     public int guessNumber()
     {
-        Scanner scan= new Scanner(System.in);
-        System.out.println("Guesser kindly guess the number");
-        guessNum=scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+            System.out.println("Guesser kindly guess the number");
+            guessNum=scan.nextInt();
         return guessNum;
     }
 }
@@ -34,9 +34,9 @@ class Player
 
     public int guessNumber()
     {
-        Scanner scan= new Scanner(System.in);
-        System.out.println("Player kindly guess the number");
-        pguessNum=scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+            System.out.println("Player kindly guess the number");
+            pguessNum=scan.nextInt();
         return pguessNum;
     }
 }
@@ -61,8 +61,8 @@ class Umpire
         Player p3=new Player();
 
         numFromPlayer1=p1.guessNumber();
-        numFromPlayer2=p1.guessNumber();
-        numFromPlayer3=p1.guessNumber();
+        numFromPlayer2=p2.guessNumber();
+        numFromPlayer3=p3.guessNumber();
     }
 
     void compare()
