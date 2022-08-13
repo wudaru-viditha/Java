@@ -1,6 +1,5 @@
 import java.io.IOException;
 
-import javax.swing.SingleSelectionModel;
 
 public class MethodOverload {
     public static void main(String[] args) throws IOException{
