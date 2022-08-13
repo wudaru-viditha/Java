@@ -12,18 +12,18 @@ class Addition
 {
     void add(int a, float b)
     {
-        float c=a+b;
-        System.out.println(c);
+        float res=a+b;
+        System.out.println(res);
     }
     float add(int a,int b)
     {
-        float c=a+b;
-        System.out.println(c);
-        return c;
+        float res=a+b;
+        System.out.println(res);
+        return res;
     }
     void add(int a, float b, int c)
     {
-        float res=a+b;
-        System.out.println(c);
+        float res=a+b+c;
+        System.out.println(res);
     }
 }
